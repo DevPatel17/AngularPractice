@@ -23,7 +23,7 @@ heroes: Hero[];
 
   constructor(private heroService: HeroService, private messageService: MessageService) { }
 
-  ngOnInit(): void {
+  ngOnInit()  {
     this.getHeroes;
   }
 
